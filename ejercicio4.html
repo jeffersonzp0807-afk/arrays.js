@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de estudiantes</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main class="card">
+        <header class="page-header">
+            <p class="eyebrow">Taller práctico de arrays</p>
+            <h1>Buscador de estudiantes</h1>
+            <p class="intro">Consulta si un estudiante forma parte de la lista registrada.</p>
+        </header>
+
+        <section class="search-panel" aria-label="Buscar estudiante">
+            <label for="buscarNombre">Nombre del estudiante</label>
+            <div class="search-controls">
+                <input type="text" id="buscarNombre" placeholder="Ej. Ana">
+                <button id="btnBuscar">Buscar</button>
+            </div>
+            <p id="resultado" aria-live="polite"></p>
+        </section>
+
+        <section class="students-section">
+            <div class="section-heading">
+                <h2>Estudiantes registrados</h2>
+                <span class="list-note">Lista actual</span>
+            </div>
+            <ul id="listaEstudiantes"></ul>
+        </section>
+
+        <a class="back-link" href="index.html">← Volver a los ejercicios</a>
+    </main>
+
+    <script src="js/ejercicio4.js"></script>
+</body>
+</html>

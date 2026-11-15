@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de números</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main class="card">
+        <header class="page-header">
+            <p class="eyebrow">Ejercicio 02</p>
+            <h1>Operaciones con arrays</h1>
+            <p class="intro">Registra números y explora sus resultados.</p>
+        </header>
+
+        <form id="formulario" class="search-panel">
+            <label for="numero">Número</label>
+            <div class="search-controls">
+                <input type="number" id="numero" placeholder="Escribe un número" step="any">
+                <button type="submit" id="btnAgregar">Agregar número</button>
+            </div>
+        </form>
+
+        <section class="content-section">
+            <h2>Números registrados</h2>
+            <ul id="lista" class="simple-list"></ul>
+        </section>
+
+        <section class="summary-panel">
+            <h2>Resultados</h2>
+            <p>Suma: <span id="suma"></span></p>
+            <p>Promedio: <span id="promedio"></span></p>
+            <p>Mayor: <span id="mayor"></span></p>
+            <p>Menor: <span id="menor"></span></p>
+        </section>
+
+        <a class="back-link" href="index.html">← Volver a los ejercicios</a>
+    </main>
+
+    <script src="js/ejercicio2.js"></script>
+</body>
+</html>
